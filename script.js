@@ -38,13 +38,13 @@ function displayResults(url) {
       if (prevUrl !== null) {
         prevBtn.style.display = 'block';
       } else {
-        prevBtn.style.display = 'block';
+        prevBtn.style.display = 'blank';
       }
 
       if (nextUrl !== null) {
         nextBtn.style.display = 'block';
       } else {
-        nextBtn.style.display = 'block';
+        nextBtn.style.display = 'blank';
       }
     });
 }
