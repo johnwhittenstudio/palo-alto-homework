@@ -22,6 +22,10 @@ h1 {
   padding: 15px;
   letter-spacing: .20em;
 }
+a {
+  text-decoration: none;
+  color: #c9f647;
+}
 #business {
   color: #c9f647;
 }

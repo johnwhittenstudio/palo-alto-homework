@@ -13,8 +13,10 @@ function displayResults(url) {
         const title = story.title;
         const author = story.author;
         const comments = story.num_comments;
+        const url = story.url; 
 
-        const storyElement = document.createElement('div');
+        const storyElement = document.createElement('a'); 
+        storyElement.href = url; 
         storyElement.innerHTML = `
           <div class="result">
             <h3 id="header">${title}</h3>
